@@ -24,6 +24,7 @@ const Getdata = async () =>{
 	return(
 		
 		<View style={styles.container}>
+			<Text style={styles.title}>CryptoStatus</Text>
      	<FlatList 
           data={coins}
           renderItem={({ item }) =>  {
@@ -41,6 +42,11 @@ const styles = StyleSheet.create({
  	backgroundColor: "#141414",
  	alignItems: "center",
   },
+
+  title: {
+  	color: "#fff",
+  	fontSize: 20,
+  }
 
 })
 
