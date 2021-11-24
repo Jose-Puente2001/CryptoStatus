@@ -2,7 +2,7 @@
   "expo": {
     "name": "cryptostatus",
     "slug": "cryptostatus",
-    "version": "1.0.0",
+    "version": "2.0.0",
     "orientation": "portrait",
     "icon": "./assets/logo.png",
     "splash": {
@@ -24,6 +24,8 @@
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
       },
+      "versionCode": 2,
+      "permissions": [],
       "package": "com.josepuente.reactnativecrypto"
     },
     "web": {
