@@ -20,10 +20,6 @@
       "supportsTablet": true
     },
     "android": {
-      "adaptiveIcon": {
-        "foregroundImage": "./assets/logo.png",
-        "backgroundColor": "#FFFFFF"
-      },
       "versionCode": 3,
       "permissions": [],
       "package": "com.josepuente.reactnativecrypto"
